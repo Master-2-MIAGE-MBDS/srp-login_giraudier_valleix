@@ -1,18 +1,30 @@
-﻿### Application de gestion de tâches
+<p align="center">
+<img alt="DataHub" src="https://www.miage.fr/wp-content/uploads/2021/01/MIAGE_50ans_MIAGE-50ans_COULEURS.png" height="150px" />
+</p>
+<h1 align="center">Serveurs d'applications et environnements JAVA</h1>
 
-Vous devez développer une application en Java pour gérer une liste de tâches. Une tâche a les caractéristiques suivantes :
+---
 
--   Titre de la tâche
--   Description de la tâche
--   Statut (terminée ou non terminée)
+## 📝 Introduction
 
-L'application doit offrir les fonctionnalités suivantes :
+Projet MIAGE
 
-1.  Ajouter une nouvelle tâche
-2.  Marquer une tâche comme terminée
-3.  Générer un rapport des tâches terminées et non terminées
+## 📍 Prérequis pour la compilation
 
-#### Objectif :
 
-Utilisez le **principe de responsabilité unique (SRP)** pour structurer votre code.
-Le projet fourni contient une implémentation qui laisse à désirer, à vous corriger ce problème !
+## ✍️ Auteurs
+
+👤 **VALLEIX Benjamin**
+
+* GitHub: [@B3njaminV](https://github.com/B3njaminV)
+* LinkedIn: [@Benjamin VALLEIX](https://www.linkedin.com/in/benjamin-valleix-27115719a)
+
+👤 **GIRAUDIER Augustin**
+
+* GitHub: [@GIRAUDIERAugustin](https://github.com/AugustinGiraudier)
+* LinkedIn: [@GIRAUDIER Augustin](https://fr.linkedin.com/in/augustin-giraudier)
+
+
+## 📝 License
+
+Copyright © 2024
