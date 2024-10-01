@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 class TaskManager {
@@ -20,49 +21,7 @@ class TaskManager {
         }
     }
 
-    // Générer un rapport des tâches terminées
-    public void printCompletedTasks() {
-        System.out.println("Taches terminees :");
-        for (Task task : tasks) {
-            if (task.isCompleted()) {
-                System.out.println(task);
-            }
-        }
-    }
-
-    // Générer un rapport des tâches non terminées
-    public void printPendingTasks() {
-        System.out.println("Taches non terminees :");
-        for (Task task : tasks) {
-            if (!task.isCompleted()) {
-                System.out.println(task);
-            }
-        }
-    }
-
-    // Classe interne pour représenter une tâche
-    private class Task {
-        private String title;
-        private String description;
-        private boolean completed;
-
-        public Task(String title, String description) {
-            this.title = title;
-            this.description = description;
-            this.completed = false;
-        }
-
-        public boolean isCompleted() {
-            return completed;
-        }
-
-        public void setCompleted(boolean completed) {
-            this.completed = completed;
-        }
-
-        @Override
-        public String toString() {
-            return "Tache : " + title + " - " + description + " | Statut : " + (completed ? "Terminee" : "Non terminee");
-        }
+    public List<Task> getTasks() {
+        return Collections.unmodifiableList(tasks);
     }
 }

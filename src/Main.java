@@ -7,7 +7,9 @@ public class Main {
 
         taskManager.markTaskAsComplete(1);
 
-        taskManager.printCompletedTasks();
-        taskManager.printPendingTasks();
+        PrinterConsole console = new PrinterConsole(taskManager.getTasks());
+
+        console.print(PrintReportType.COMPLETED_TASKS);
+        console.print(PrintReportType.PENDING_TASKS);
     }
 }
